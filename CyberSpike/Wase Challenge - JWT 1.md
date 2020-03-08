@@ -14,11 +14,10 @@ Good luck!
 
 ## Environment
 When you first start up the challenge you are greeted with a web page which has two features: Generating a JWT and validating a JWT.
-[PLACEHOLDER API screenshot]
 
 The obvious first step is to explore the UI that you're given. Clicking the **Get new token** button fills the Token field with a freshly generated JWT.
 Clicking **Verify token** then returns the payload of the JWT with a message that confirms the validity of the JWT.
-[PLACEHOLDER validation screenshot]
+![](https://github.com/RobinvandenHurk/ctf-writeups/blob/master/CyberSpike/images/Wase%20Challenge%20-%20JWT%20%5BValidation%5D.png "UI Screenshot")
 
 ## Solution
 ### Understanding JWT
