@@ -1,15 +1,14 @@
-# Writeup Cached Web
-## Challenge Info
+# Challenge Info
 * **Event:**		Hack The Box University CTF 2020
 * **Name:**			Cached Web
 * **Creator:**		Makelaris
 * **Difficulty:**	2/5
 * **Category:**		Web
 
-## Description
+# Description
 I made a service for people to cache their favourite websites, come and check it out! But don't try anything funny, after a recent incident we implemented military grade IP based restrictions to keep the hackers at bay...
 
-## Writeup
+# Writeup
 * **Author:**		Robin van den Hurk
 
 After reading the challenge description we visited the website to see what's going on. We were greeted with a minimal webpage, prompting to insert a URL. We tested the functionality by inserting `https://google.com` and got a response which was a screenshot of google.com. It seems like this webpage goes to the submitted website, makes a screenshot and displays that to us.
